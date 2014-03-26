@@ -1,4 +1,4 @@
-<?php include "header.php" ?>
+<?php snippet('header') ?>
 
     <div id="termsContainer" class="row">
       <div class="large-12 columns">
@@ -88,7 +88,7 @@
       </div>
     </div>
  
-    <?php include "footer.php"; ?>
+    <?php snippet('footer') ?>
     
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>

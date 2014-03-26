@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -26,7 +26,7 @@
         </li>
       </ul>
     <section class="top-bar-section">
-<!--       <ul class="right topbarRight">
+      <!--  <ul class="right topbarRight">
         <li class="has-dropdown">
           <a href="#">Hong Kong ( Eng )</a>
           <ul class="dropdown">
@@ -73,10 +73,14 @@
     <div id="teaserBg" class="large-12">
       <div id="campaignLogo">
         <img src="../assets/img/teaser_logo.png">
+        <!-- <div id="teaser_fbBtn"><a href="https://www.facebook.com/wranglerap" target="_blank">&nbsp;</a></div> -->
+        <!-- <div id="teaser_instaBtn"><a href="http://instagram.com/wrangler_asiapacific" target="_blank">&nbsp;</a></div> -->
+        <div id="teaserText">The Wrangler Sun Chaser challenge is coming up,<br>Stay tuned by liking us on <a href="https://www.facebook.com/wranglerap" target="_blank">Facebook</a> or following us on <a href="http://instagram.com/wrangler_asiapacific" target="_blank">Instagram</a>.</div>
       </div>
       <br><br>
       <div id="teaserScrollDown" data-0="opacity:1" data-200="opacity:0">
-        <img src="../assets/img/teaser_countDown.png">
+        <!-- img src="../assets/img/teaser_countDown.png"> -->
+        The countdown has started...
       </div>
       <div id="date1" class="teaserDate" data-0="opacity:0" data-180="opacity:0" data-230="opacity:1">
         <img src="../assets/img/teaser_date.png">

@@ -1,3 +1,7 @@
+<?php 
+  $lang = c::get('lang.current');
+?>
+
 <?php snippet('header') ?>
 
     <div id="fb-root"></div>
@@ -9,17 +13,7 @@
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
 
-    <div id="popUp">
-      <div id="popUpBg" onclick="closePopUp()">&nbsp;</div>
-      <div id="popUpContent">
-        <div id="popUpText">
-          You can also submit your photo by uploading it directly to our <a href="http://www.facebook.com">Facebook page</a>!
-          <br>Don’t forget to tag it #WranglerSunchaser.
-          <br>
-         <a id="closeBtn" onclick="closePopUp()">[ CLOSE ]</a>
-        </div>
-      </div>
-    </div>
+    <?php snippet('popup') ?>
 
     <div id="upperContainer">
       <div class="row">
@@ -30,14 +24,14 @@
                 <br><br>
                 <div class="whiteLine"></div>
                 <div class="bkSubTitle margintop-20">
-                  CURRENT CHALLENGE
+                  <?php echo html($page->currentchallenge()) ?>
                 </div>
                 <br>
                 <div class="bigC1_click">   
                   <ul class="orbit-content" data-orbit>
                     <li data-orbit-slide="1">
                       <a data-orbit-link="2">
-                        <img src="../assets/img/bigC1_hk.jpg"/>  
+                        <img src="../content/0201-challenges1/bigC1_<?php echo $lang; ?>.jpg"/> 
                       </a>
                     </li>
                     <li data-orbit-slide="2">
@@ -47,7 +41,7 @@
                         <a class="facebookBtn" href="https://www.facebook.com/wranglerap" target="_black">&nbsp;</a>
                         <a class="instagramBtn" href="http://instagram.com/wrangler_asiapacific" target="_black">&nbsp;</a>
                         <div class="backToOrbit1">
-                          <a data-orbit-link="1">< Back to see challenges</a>
+                          <a data-orbit-link="1">< <?php echo html($page->backtoseechallenge()) ?></a>
                         <div>
                       </div>
                     </li>
@@ -62,7 +56,7 @@
                 <br><br>
                 <div class="whiteLine"></div>
                 <div class="bkSmallSubTitle margintop-20">
-                  ALL CHALLENGE
+                  <?php echo html($page->allchallenge()) ?>
                 </div>
                 <br>
                 <div class="challengesThumb">
@@ -90,17 +84,17 @@
                 <ul data-orbit>
                   <li data-orbit-slide="1">
                       <a data-orbit-link="2">
-                        <img src="../assets/img/bigC1_hk.jpg"/>
+                        <img src="../content/0201-challenges1/bigC1_<?php echo $lang; ?>.jpg"/>
                       </a>
                   </li>
                   <li data-orbit-slide="2">
                     <!-- <a data-orbit-link="headline-1"></a> -->
                       <img src="../assets/img/bigC1_click_mobile.jpg">
                       <div class="popUpText_mobile">
-                        <span class="hide-for-small">You can also submit your photo by uploading it directly to our <a href="http://www.facebook.com">Facebook page</a>! Don’t forget to tag it #WranglerSunchaser.</span> (<a onclick="showPopUp()">Don't have Instagram?</a>)
+                        <span class="hide-for-small"><?php echo html($page->popupmsg1()) ?> <a href="http://www.facebook.com"><?php echo html($page->facebookpage()) ?></a>! <?php echo html($page->popupmsg2()) ?></span> (<a onclick="showPopUp()"><?php echo html($page->popupmsg3()) ?></a>)
                       </div>
                       <div class="backToOrbit1_mobile">
-                      <a data-orbit-link="1">< Back to see challenges</a>
+                      <a data-orbit-link="1">< <?php echo html($page->backtoseechallenge()) ?></a>
                     <div>
                   </li>
                 </ul>
@@ -132,9 +126,9 @@
       <div class="row ">
         <div class=" large-12 columns">
           <p>
-            <img src="../assets/img/reminderIcon.png">
+            <img src="../assets/img/reminderIcon_.png">
             &nbsp;&nbsp;
-            <span class="reminderText">All weekly winners will automatically be invited to compete for the Grand Prize!</span>
+            <span class="reminderText"><?php echo html($page->remindertext()) ?></span>
           <p>
         </div>
       </div>
@@ -149,18 +143,18 @@
           <br>
           <div class="solidLine"></div>
           <div class="whatYouCanWin margintop-20">
-            WHAT YOU CAN WIN THIS WEEK
+            <?php echo html($page->whatyoucanwin()) ?>
           </div>
           <br>
           <div class="large-6 columns">
-            <a id="prizePhoto" href="../assets/img/prizeImg1.jpg"><img src="../assets/img/prizeImg1.jpg"></a>
+            <a id="prizePhoto" href="../content/0201-challenges1/prizeImg1_<?php echo $lang; ?>.jpg"><img src="../content/0201-challenges1/prizeImg1_<?php echo $lang; ?>.jpg"></a>
           </div>
           <div class="large-6 columns">
-            <h2 id="rewardTitle">Win Iconic Denim</h2>
+            <h2 id="rewardTitle"><?php echo html($page->rewardtitle()) ?></h2>
             <br>
             <div id="rewardContent">
-              <p><img id="icons" src="../assets/img/icons.png"></p>
-              <p>Whether chasing the sun across the mountain, or riding through the hot city streets, you've got to be prepared. Our iconic denim has stood the test of time and are designed to get the modern day cowboy through the day. Built to serve the rodeo riders in 1947, it remains a timeless classic.</p>
+              <p><img id="icons" src="../content/0201-challenges1/icons_<?php echo $lang; ?>.png"></p>
+              <p><?php echo html($page->rewardcontent()) ?></p>
               
               <br>
 

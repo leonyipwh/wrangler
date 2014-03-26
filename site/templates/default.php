@@ -2,6 +2,10 @@
   $campaignLogo = $page->images()->find('campaignLogo.png');
 ?>
 
+<?php 
+	$lang = c::get('lang.current');
+?>
+
 <?php snippet('header') ?>
 
 
@@ -57,7 +61,7 @@
 						</div>
 						<br>
 						<a href="challenges.php">
-							<img src="../assets/img/howToHk.png" />
+							<img src="../content/01-index/howTo_<?php echo $lang; ?>.png" />
 						</a>
 		            </div>
 		     
@@ -163,7 +167,7 @@
      
 					<div class="large-6 columns">
 						<div class="subTitle">
-							HOW TO PARTICIPATE
+							<?php echo html($page->howtoparticipate()) ?>
 						</div>
 						<br>
 						<a href="challenges.php">
@@ -173,7 +177,7 @@
      
 					<div class="large-6 columns">
 						<div class="subTitle">
-							GRAND PRIZE
+							<?php echo html($page->grandprize()) ?>
 						</div>
 						<br>
 						<a href="prizes.php">
@@ -197,7 +201,7 @@
 
 		<div class="row ">
         	<div class="large-12 columns">
-        		<div class="highlights"><span class="bold">HIGHLIGHTS FROM</span> #WranglerSunchaser</div>
+        		<div class="highlights"><span class="bold"><?php echo html($page->highlightsfrom()) ?></span> #WranglerSunchaser</div>
         	</div>
       	</div>
       

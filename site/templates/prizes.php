@@ -1,3 +1,7 @@
+<?php 
+  $lang = c::get('lang.current');
+?>
+
 <?php snippet('header') ?>
 
     <div id="reward_lowerContainer">
@@ -7,22 +11,22 @@
           <br>
           <br class="hide-for-small">
           <br class="hide-for-small">
-          <span class="hide-for-small"><img src="../assets/img/rewardBannerTitle.png"></span>
-          <span class="show-for-small-only"><img src="../assets/img/rewardBannerTitle_mobile.png"></span>
+          <span class="hide-for-small"><img src="../content/03-prizes/prizes_<?php echo $lang; ?>.png"/></span>
+          <span class="show-for-small-only"><img src="../content/03-prizes/prizesMobile_<?php echo $lang; ?>.png"/></span>
           <br class="hide-for-small">
           <br class="hide-for-small">
           <br>
           <div id="rewardBannerContent">
-            <span id="allWeeklyWinners">Wrangler is all about the open road, so we’re giving the ultimate Sun Chaser a chance to embark on an unforgettable journey:</span>
+            <span id="allWeeklyWinners"><?php echo html($page->allweeklywinners()) ?></span>
             <br>
             <br>
-            <span class="boldAndUnderline">A 5-day trip, flight and accommodation included, to a country of choice. </span>
+            <span class="boldAndUnderline"><?php echo html($page->underlintext()) ?></span>
             <br>
             <br>
-            <span>9 markets are competing for the grand prize, so it’s time to get creative!</span>
+            <span><?php echo html($page->smalltext()) ?></span>
             <br>
             <br>
-            <span class="floatRight">*Terms &#38; Conditions apply. </span>
+            <span class="floatRight"><?php echo html($page->termsapply()) ?></span>
           </div>
         </div>
       </div>
@@ -38,17 +42,17 @@
           <br>
           <div class="large-6 columns">
             <div id="rewardSubTitle">
-              HOW TO PARTICIPATE
+              <?php echo html($page->howtoparticipate()) ?>
             </div>
             <br>
-            <p>To win the grand prize, you must first win one of the weekly challenges! </p>
-            <p>Every week, our Wrangler teams are on the lookout for those who find the true adventurer within. Take our weekly challenge , and share your adventure with us on Instagram. The further you go on the open road, the better your chance. We’re looking for the most stunning, daring and creative photos.</p>
-            <div id="winners">4 CHALLENGES, 4 WEEKLY WINNERS.<br>TIME TO GET CREATIVE!</div>
+            <p><?php echo html($page->para1()) ?></p>
+            <p><?php echo html($page->para2()) ?></p>
+            <div id="winners"><?php echo html($page->challengesandwinner()) ?><br><?php echo html($page->timetogetcreative()) ?></div>
             <br><br>
-            <div id="terms">* Terms &#38; Conditions apply.</div>
+            <div id="terms"><?php echo html($page->termsapply()) ?></div>
           </div>
           <div class="large-6 columns">
-            <img src="../assets/img/productImg.png">
+            <img src="../content/03-prizes/productImg_<?php echo $lang; ?>.png"/>
           </div>
         </div>
       </div>
