@@ -60,7 +60,7 @@
 		                	<?php echo html($page->howtoparticipate()) ?>
 						</div>
 						<br>
-						<a href="challenges.php">
+						<a href="challenges1.php">
 							<img src="../content/01-index/howTo_<?php echo $lang; ?>.png" />
 						</a>
 		            </div>
@@ -246,9 +246,9 @@
     <script src="../assets/js/skrollr.min.js"></script>
     <script src="../assets/js/rem.min.js"></script>
 
-
+    <!--[if lt IE 9]>
     <script type="text/javascript" src="../assets/js/skrollr.ie.min.js"></script>
-
+    <![endif]-->
 
     <script type="text/javascript" src="../assets/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
     <script type="text/javascript" src="../assets/fancybox/jquery.fancybox-1.3.4.pack.js"></script>

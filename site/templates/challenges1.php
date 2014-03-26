@@ -126,7 +126,7 @@
       <div class="row ">
         <div class=" large-12 columns">
           <p>
-            <img src="../assets/img/reminderIcon_.png">
+            <img src="../assets/img/reminderIcon.png">
             &nbsp;&nbsp;
             <span class="reminderText"><?php echo html($page->remindertext()) ?></span>
           <p>
@@ -174,11 +174,9 @@
 
     <script src="../assets/js/vendor/jquery.js"></script>
     <script src="../assets/js/foundation.min.js"></script>
-     <script src="../assets/js/foundation/foundation.orbit.js"></script>
+    <script src="../assets/js/foundation/foundation.orbit.js"></script>
     <script src="../assets/js/vendor/modernizr.js"></script>
     <script src="../assets/js/rem.min.js"></script>
-
-    <script type="text/javascript" src="../assets/js/skrollr.ie.min.js"></script>
 
     <script type="text/javascript" src="../assets/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
     <script type="text/javascript" src="../assets/fancybox/jquery.fancybox-1.3.4.pack.js"></script>

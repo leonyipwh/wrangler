@@ -176,6 +176,7 @@
 
     <script src="../assets/js/vendor/jquery.js"></script>
     <script src="../assets/js/foundation.min.js"></script>
+    <script src="../assets/js/foundation/foundation.orbit.js"></script>
     <script src="../assets/js/vendor/modernizr.js"></script>
     <script src="../assets/js/rem.min.js"></script>
 

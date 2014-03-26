@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'agendaFont';
-    src: url('../fonts/Agenda.ttf'),
+    src: url('../assets/fonts/Agenda.ttf'),
     local('../fonts/Agenda.eot');
     font-weight: normal;
     font-style: normal;
@@ -16,24 +16,24 @@
 
 @font-face {
     font-family: 'flamaBook';
-    src: url('../fonts/Flama-Book.ttf'),
-    local('../fonts/Flama-Book.eot');
+    src: url('../assets/fonts/Flama-Book.ttf'),
+    local('../assets/fonts/Flama-Book.eot');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'kenyan';
-    src: url('../fonts/kenyan coffee1.ttf'),
-    url('../fonts/kenyan coffee.ttf');
+    src: url('../assets/fonts/kenyan coffee1.ttf'),
+    url('../assets/fonts/kenyan coffee.ttf');
   
     
 }
 
 @font-face {
     font-family: 'agendaLight';
-    src: url('../fonts/agenda-light-webfont.ttf'),
-    local('../fonts/agenda-light-webfont.eot');
+    src: url('../assets/fonts/agenda-light-webfont.ttf'),
+    local('../assets/fonts/agenda-light-webfont.eot');
     font-weight: bold;
 }
 
@@ -643,7 +643,7 @@ footer
 #winners
 {
 	font-family: 'flamaBold', sans-serif;
-	/*text-decoration:underline;*/
+	text-decoration:underline;
 	font-size: 20px;
 	text-transform:uppercase;
 	line-height: 25px;

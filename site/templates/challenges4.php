@@ -101,10 +101,10 @@
               </div>
             </div>
             <div class="challengesMobileThumb row">
-              <div id="" class="challenge1Thumb small-3 columns"><a href="challenges_hk.php"><img src="img/challenge1.jpg" /></a></div>
-              <div id="" class="challenge2Thumb small-3 columns"><a href="challenges2_hk.php"><img src="img/challenge2.jpg" /></a></div>
-              <div id="" class="challenge3Thumb small-3 columns"><a href="challenges3_hk.php"><img src="img/challenge3.jpg" /></a></div>
-              <div id="" class="challenge4Thumb small-3 columns"><a href="challenges4_hk.php"><img src="img/challenge4.jpg" /></a></div>
+              <div id="" class="challenge1Thumb small-3 columns"><a href="challenges1.php"><img src="../assets/img/challenge1.jpg" /></a></div>
+              <div id="" class="challenge2Thumb small-3 columns"><a href="challenges2.php"><img src="../assets/img/challenge2.jpg" /></a></div>
+              <div id="" class="challenge3Thumb small-3 columns"><a href="challenges3.php"><img src="../assets/img/challenge3.jpg" /></a></div>
+              <div id="" class="challenge4Thumb small-3 columns"><a href="challenges4.php"><img src="../assets/img/challenge4.jpg" /></a></div>
             </div>
           </div>
 
@@ -126,7 +126,7 @@
       <div class="row ">
         <div class=" large-12 columns">
           <p>
-            <img src="img/reminderIcon.png">
+            <img src="../assets/img/reminderIcon.png">
             &nbsp;&nbsp;
             <span class="reminderText"><?php echo html($page->remindertext()) ?></span>
           <p>
@@ -174,6 +174,7 @@
 
     <script src="../assets/js/vendor/jquery.js"></script>
     <script src="../assets/js/foundation.min.js"></script>
+    <script src="../assets/js/foundation/foundation.orbit.js"></script>
     <script src="../assets/js/vendor/modernizr.js"></script>
     <script src="../assets/js/rem.min.js"></script>
 

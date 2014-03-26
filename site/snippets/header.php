@@ -6,6 +6,9 @@
   <?php endforeach ?>
 </ul> -->
 
+<?php 
+  $lang = c::get('lang.current');
+?>
 
 <!doctype html>
 <!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -49,12 +52,57 @@
         <!-- Right Nav Section -->
         <ul class="right topbarRight">
           <li class="has-dropdown">
-            <a href="#">Hong Kong ( Eng )</a>
+            <a href="<?php echo $page->url($lang) ?>">
+
+              <?php 
+                if($lang=="hken")
+                  {
+                    echo "Hong Kong ( Eng )";
+                  } 
+                else if($lang=="hkzh")
+                  {
+                    echo "Hong Kong ( 繁體字 )";
+                  }
+                else if($lang=="thai")
+                  {
+                    echo "Thailand ( Eng )";
+                  }
+                else if($lang=="chinazh")
+                  {
+                    echo "China ( 简体字 )";
+                  }
+               ?>
+            </a>
+            
             <ul class="dropdown">
-              <li><a href="index_aus.php">Australia ( Eng )</a></li>
+              <?php foreach(c::get('lang.available') as $langSelection): ?>
+              <li>
+                <a href="<?php echo $page->url($lang) ?>">
+                  <?php 
+                    if($langSelection == 'hken' && $langSelection!=$lang)
+                    {
+                      echo "Hong Kong ( Eng )";
+                    }
+                    else if($langSelection == 'hkzh' && $langSelection!=$lang)
+                    {
+                      echo "Hong Kong ( 繁體字 )";
+                    }
+                    else if($langSelection == 'thai' && $langSelection!=$lang)
+                    {
+                      echo "Thailand ( Eng )";
+                    }
+                    else if($langSelection == 'chinazh' && $langSelection!=$lang)
+                    {
+                      echo "China ( 简体字 )";
+                    }
+                  ?>
+                </a>
+              </li>
+              <?php endforeach ?>
+              <!-- <li><a href="index_aus.php">Australia ( Eng )</a></li>
               <li><a href="#">Hong Kong ( 繁體字 )</a></li>
               <li><a href="#">China ( 简体字 )</a></li>
-              <li><a href="#">Thailand ( Eng )</a></li>
+              <li><a href="#">Thailand ( Eng )</a></li> -->
             </ul>
           </li>
         </ul>
