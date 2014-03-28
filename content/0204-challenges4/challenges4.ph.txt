@@ -1,0 +1,47 @@
+Currentchallenge: Current Challenge
+
+----
+
+Allchallenge: all challenge
+
+----
+
+Backtoseechallenge: Back to see challenge
+
+----
+
+Popupmsg1: You can also submit your photo by uploading it directly to our 
+
+----
+
+Facebookpage: Facebook Page
+
+----
+
+Popupmsg2: Don’t forget to tag it #WranglerSunchaser.
+
+----
+
+Popupmsg3: Don't have Instagram?
+
+----
+
+Remindertext: All weekly winners will automatically be invited to compete for the Grand Prize!
+
+----
+
+Whatyoucanwin: WHAT YOU CAN WIN THIS WEEK
+
+----
+
+Rewardtitle: 7 Icons Top 
+
+----
+
+Rewardcontent:Whether chasing the sun across the mountain, or riding through the hot city streets, you've got to be prepared. Our 7 icons have stood the test of time and are designed to get the modern day cowboy through the day. Built to serve the rodeo riders in 1947, it remains a timeless classic.
+Value: Php 2,199.75
+
+
+----
+
+

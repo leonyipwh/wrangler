@@ -1,0 +1,45 @@
+Currentchallenge: Current Challenge
+
+----
+
+Allchallenge: all challenge
+
+----
+
+Backtoseechallenge: Back to see challenge
+
+----
+
+Popupmsg1: You can also submit your photo by uploading it directly to our 
+
+----
+
+Facebookpage: Facebook Page
+
+----
+
+Popupmsg2: Don’t forget to tag it #WranglerSunchaser.
+
+----
+
+Popupmsg3: Don't have Instagram?
+
+----
+
+Remindertext: All weekly winners will automatically be invited to compete for the Grand Prize!
+
+----
+
+Whatyoucanwin: WHAT YOU CAN WIN THIS WEEK
+
+----
+
+Rewardtitle: Coolmax Jeans
+
+----
+
+Rewardcontent:Your clothes shouldn’t constrict or work against you, and being in a hot, humid climate shouldn’t stop you from rocking your wardrobe favorites. For your comfort, it’s all about the COOLMAX®  line, designed to "Keep you Cool" against the hot hot heat. Reaching for the the highest peak has never been more inviting. 
+Value: Php 2,599.75
+----
+
+

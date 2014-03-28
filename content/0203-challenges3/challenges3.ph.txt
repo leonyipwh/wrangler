@@ -1,0 +1,46 @@
+Currentchallenge: Current Challenge
+
+----
+
+Allchallenge: all challenge
+
+----
+
+Backtoseechallenge: Back to see challenge
+
+----
+
+Popupmsg1: You can also submit your photo by uploading it directly to our 
+
+----
+
+Facebookpage: Facebook Page
+
+----
+
+Popupmsg2: Don’t forget to tag it #WranglerSunchaser.
+
+----
+
+Popupmsg3: Don't have Instagram?
+
+----
+
+Remindertext: All weekly winners will automatically be invited to compete for the Grand Prize!
+
+----
+
+Whatyoucanwin: WHAT YOU CAN WIN THIS WEEK
+
+----
+
+Rewardtitle:Shorts 
+
+----
+
+Rewardcontent:Keeping it cropped is the ultimate summer solution.  Shorts and short sleeved t-shirts will battle the mid-day sun and allow you to get your feet wet without worry.
+Value: Php 1,899.75
+
+----
+
+

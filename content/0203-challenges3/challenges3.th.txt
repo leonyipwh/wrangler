@@ -1,0 +1,44 @@
+Currentchallenge: Current Challenge
+
+----
+
+Allchallenge: all challenge
+
+----
+
+Backtoseechallenge: Back to see challenge
+
+----
+
+Popupmsg1: You can also submit your photo by uploading it directly to our 
+
+----
+
+Facebookpage: Facebook Page
+
+----
+
+Popupmsg2: Don’t forget to tag it #WranglerSunchaser.
+
+----
+
+Popupmsg3: Don't have Instagram?
+
+----
+
+Remindertext: All weekly winners will automatically be invited to compete for the Grand Prize!
+
+----
+
+Whatyoucanwin: WHAT YOU CAN WIN THIS WEEK
+
+----
+
+Rewardtitle: Gift Vouchers at THB4,000
+
+----
+
+Rewardcontent:An adventurer never returns empty handed. This week’s bounty comes in the form of a voucher, take your pick of this season’s collection to further your journeys under the sun.
+----
+
+

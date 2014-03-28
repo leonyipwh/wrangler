@@ -1,0 +1,47 @@
+Currentchallenge: Current Challenge
+
+----
+
+Allchallenge: all challenge
+
+----
+
+Backtoseechallenge: Back to see challenge
+
+----
+
+Popupmsg1: You can also submit your photo by uploading it directly to our 
+
+----
+
+Facebookpage: Facebook Page
+
+----
+
+Popupmsg2: Don’t forget to tag it #WranglerSunchaser.
+
+----
+
+Popupmsg3: Don't have Instagram?
+
+----
+
+Remindertext: All weekly winners will automatically be invited to compete for the Grand Prize!
+
+----
+
+Whatyoucanwin: WHAT YOU CAN WIN THIS WEEK
+
+----
+
+Rewardtitle: Denim Spa Jeans
+
+----
+
+Rewardcontent:We do the job of bringing a little luxury to your life for you. Our Denim Spa jeans are built with power stretch denim which gives you a sexy silhouette, while providing a 
+pampering spa treatment of moisturising oils and fruity  scents. With a fruity new fragrance out, you’ll smell just as good as you look. It’s the true essence of summer.
+Value: Php 3,999.75
+
+----
+
+

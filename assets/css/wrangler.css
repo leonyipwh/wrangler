@@ -24,8 +24,8 @@
 
 @font-face {
     font-family: 'kenyan';
-    src: url('../assets/fonts/kenyan coffee1.ttf'),
-    url('../assets/fonts/kenyan coffee.ttf');
+    src: url('../assets/fonts/kenyan coffee.ttf'),
+    local('../assets/fonts/kenyan coffee.ttf');
   
     
 }

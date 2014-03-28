@@ -59,17 +59,25 @@
                   {
                     echo "Hong Kong ( Eng )";
                   } 
-                else if($lang=="hkzh")
+                else if($lang=="au")
                   {
-                    echo "Hong Kong ( 繁體字 )";
+                    echo "Australia";
                   }
-                else if($lang=="thai")
+                else if($lang=="mm")
+                  {
+                    echo "Myanmar";
+                  }
+                else if($lang=="ph")
+                  {
+                    echo "Philippines";
+                  }
+                else if($lang=="za")
+                  {
+                    echo "South Africa";
+                  }
+                else if($lang=="th")
                   {
                     echo "Thailand ( Eng )";
-                  }
-                else if($lang=="chinazh")
-                  {
-                    echo "China ( 简体字 )";
                   }
                ?>
             </a>
@@ -77,23 +85,31 @@
             <ul class="dropdown">
               <?php foreach(c::get('lang.available') as $langSelection): ?>
               <li>
-                <a href="<?php echo $page->url($lang) ?>">
+                <a href="<?php echo $page->url($langSelection) ?>">
                   <?php 
                     if($langSelection == 'hken' && $langSelection!=$lang)
                     {
                       echo "Hong Kong ( Eng )";
                     }
-                    else if($langSelection == 'hkzh' && $langSelection!=$lang)
+                    else if($langSelection == 'au' && $langSelection!=$lang)
                     {
-                      echo "Hong Kong ( 繁體字 )";
+                      echo "Australia";
                     }
-                    else if($langSelection == 'thai' && $langSelection!=$lang)
+                    else if($langSelection == 'mm' && $langSelection!=$lang)
+                    {
+                      echo "Myanmar";
+                    }
+                    else if($langSelection == 'ph' && $langSelection!=$lang)
+                    {
+                      echo "Philippines";
+                    }
+                    else if($langSelection == 'za' && $langSelection!=$lang)
+                    {
+                      echo "South Africa";
+                    }
+                    else if($langSelection == 'th' && $langSelection!=$lang)
                     {
                       echo "Thailand ( Eng )";
-                    }
-                    else if($langSelection == 'chinazh' && $langSelection!=$lang)
-                    {
-                      echo "China ( 简体字 )";
                     }
                   ?>
                 </a>
