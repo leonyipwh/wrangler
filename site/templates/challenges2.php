@@ -143,7 +143,7 @@
       <div class="row">
         <div class="large-12 columns">
           <br>
-          <div class="solidLine"></div>
+          <div class="show-for-large-up solidLine"></div>
           <div class="whatYouCanWin margintop-20">
             <?php echo html($page->whatyoucanwin()) ?>
           </div>

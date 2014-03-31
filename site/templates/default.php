@@ -170,12 +170,16 @@
 							<?php echo html($page->howtoparticipate()) ?>
 						</div>
 						<br>
-						<a href="challenges.php">
-							<img src="../assets/img/howToHk.png" />
+						<a href="challenges1.php">
+							<img src="../content/01-index/howTo_<?php echo $lang; ?>.png" />
 						</a>
+
             		</div>
      
+
+
 					<div class="large-6 columns">
+						<br>
 						<div class="subTitle">
 							<?php echo html($page->grandprize()) ?>
 						</div>
@@ -191,12 +195,6 @@
 			</div>
 		</div>
       
-		<br>
-		<br>
-      
-		<div class="line show-for-large-up"></div>
-
-		<br>
 		<br>
 
 		<div class="row ">

@@ -142,13 +142,13 @@
       <div class="row">
         <div class="large-12 columns">
           <br>
-          <div class="solidLine"></div>
+          <div class="show-for-large-up solidLine"></div>
           <div class="whatYouCanWin margintop-20">
             <?php echo html($page->whatyoucanwin()) ?>
           </div>
           <br>
           <div class="large-6 columns">
-            <a id="prizePhoto" href="../assets/img/prizeImg3.jpg"><img src="../assets/img/prizeImg3.jpg"></a>
+            <a id="prizePhoto" href="../content/0203-challenges3/prizeImg3_<?php echo $lang; ?>.jpg"><img src="../content/0203-challenges3/prizeImg3_<?php echo $lang; ?>.jpg"></a>
           </div>
           <div class="large-6 columns">
             <h2 id="rewardTitle"><?php echo html($page->rewardtitle()) ?></h2>
