@@ -6,7 +6,7 @@
     <title>Wrangler</title>
     <link rel="stylesheet" href="../assets/css/foundation.css" />
     <link rel="stylesheet" href="../assets/css/wrangler.css" />
-    
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
     <!--[if lt IE 9]>
       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
       <script src="//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>

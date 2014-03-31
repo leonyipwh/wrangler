@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="../assets/css/wrangler.css" />
     <link rel="stylesheet" type="text/css" href="../assets/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'/>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
     
     <!--[if lt IE 9]>
       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
