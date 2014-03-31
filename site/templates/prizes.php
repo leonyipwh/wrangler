@@ -52,7 +52,7 @@
             <div id="terms"><?php echo html($page->termsapply()) ?></div>
           </div>
           <div class="large-6 columns">
-            <img src="../content/03-prizes/productImg_<?php echo $lang; ?>.png"/>
+            <img src="../content/03-prizes/productImg_hken.png"/>
           </div>
         </div>
       </div>

@@ -21,7 +21,7 @@
       <br><br>
       <div class="leadingText small-11 small-centered columns"><?php echo html($page->leadingtext()) ?></div>
       <div id="currentChallengeBtn" class="">
-        <a href="challenges.php"><?php echo html($page->currentchallenge()) ?> ></a>
+        <a href="challenges1.php"><?php echo html($page->currentchallenge()) ?> ></a>
       </div>
     </div>
 

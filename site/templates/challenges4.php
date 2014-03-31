@@ -61,10 +61,10 @@
                 </div>
                 <br>
                 <div class="challengesThumb">
-                  <div class="challenge1Thumb"><a href="challenges1.php"><img src="../assets/img/challenge1.jpg" /></a></div>
-                  <div class="challenge2Thumb"><a href="challenges2.php"><img src="../assets/img/challenge2.jpg" /></a></div>
-                  <div class="challenge3Thumb"><a href="challenges3.php"><img src="../assets/img/challenge3.jpg" /></a></div>
-                  <div class="challenge4Thumb"><a href="challenges4.php"><img src="../assets/img/challenge4.jpg" /></a></div>
+                  <div class="challenge1Thumb"><a href="challenges1.php"><img src="../assets/img/challengeImg/<?php echo $lang; ?>/challenge1_<?php echo $lang; ?>.jpg" /></a></div>
+                  <div class="challenge2Thumb"><a href="challenges2.php"><img src="../assets/img/challengeImg/<?php echo $lang; ?>/challenge2_<?php echo $lang; ?>.jpg" /></a></div>
+                  <div class="challenge3Thumb"><a href="challenges3.php"><img src="../assets/img/challengeImg/<?php echo $lang; ?>/challenge3_<?php echo $lang; ?>.jpg" /></a></div>
+                  <div class="challenge4Thumb"><a href="challenges4.php"><img src="../assets/img/challengeImg/<?php echo $lang; ?>/challenge4_<?php echo $lang; ?>.jpg" /></a></div>
                 </div>
                 <br>
                 <div class="whiteLine"></div>
@@ -101,10 +101,10 @@
               </div>
             </div>
             <div class="challengesMobileThumb row">
-              <div id="" class="challenge1Thumb small-3 columns"><a href="challenges1.php"><img src="../assets/img/challenge1.jpg" /></a></div>
-              <div id="" class="challenge2Thumb small-3 columns"><a href="challenges2.php"><img src="../assets/img/challenge2.jpg" /></a></div>
-              <div id="" class="challenge3Thumb small-3 columns"><a href="challenges3.php"><img src="../assets/img/challenge3.jpg" /></a></div>
-              <div id="" class="challenge4Thumb small-3 columns"><a href="challenges4.php"><img src="../assets/img/challenge4.jpg" /></a></div>
+              <div id="" class="challenge1Thumb small-3 columns"><a href="challenges1.php"><img src="../assets/img/challengeImg/<?php echo $lang; ?>/challenge1_<?php echo $lang; ?>.jpg" /></a></div>
+              <div id="" class="challenge2Thumb small-3 columns"><a href="challenges2.php"><img src="../assets/img/challengeImg/<?php echo $lang; ?>/challenge2_<?php echo $lang; ?>.jpg" /></a></div>
+              <div id="" class="challenge3Thumb small-3 columns"><a href="challenges3.php"><img src="../assets/img/challengeImg/<?php echo $lang; ?>/challenge3_<?php echo $lang; ?>.jpg" /></a></div>
+              <div id="" class="challenge4Thumb small-3 columns"><a href="challenges4.php"><img src="../assets/img/challengeImg/<?php echo $lang; ?>/challenge4_<?php echo $lang; ?>.jpg" /></a></div>
             </div>
           </div>
 
@@ -153,7 +153,7 @@
             <h2 id="rewardTitle"><?php echo html($page->rewardtitle()) ?></h2>
             <br>
             <div id="rewardContent">
-              <p><img id="icons" src="../content/0204-challenges4/icons_<?php echo $lang; ?>.png"></p>
+              <p><img id="icons" src="../assets/img/icons.png"></p>
               <p><?php echo html($page->rewardcontent()) ?></p>
               
               <br>
