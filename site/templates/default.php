@@ -13,7 +13,8 @@
     
     <div id="featured" data-0="top:75px;" data-end="top:75px;"></div>
     <div id="leadingContent" class="large-12" data-0="top:95px;" data-500="top:-550px;">
-      <div id="sunchaseLogo"><img src="<?php echo $campaignLogo->url() ?>"></div>
+
+      <div id="sunchaseLogo"><img src="../content/01-index/campaignLogo_<?php echo $lang; ?>.png"></div>
       <br>
 
       <div id="scrollDown"><?php echo html($page->scroll()) ?></div>
@@ -81,12 +82,25 @@
 		                  		<?php echo html($page->followus()) ?>
 		                	</div>
 		                	<br>
-		                	<a href="https://www.facebook.com/wranglerap" target="_blank">
-		                  		<img src="../assets/img/followUs_fb.jpg" />
-		                	</a>
-		                	<a href="http://instagram.com/wrangler_asiapacific" target="_blank">
-		                  		<img src="../assets/img/followUs_insta.jpg" />
-		                	</a>
+		                	<?php if($lang=="zh")
+		                  	{
+		                    	echo "
+		                    		<a href='http://weibo.com/wranglerchina'><img src='../content/01-index/weiboImg.jpg'/></a>";
+		                  	} 
+		                  	else
+		                  	{
+		                  		echo "
+		                  		<a href=".html($page->facebooklink())."target='_blank'>
+		                  			<img src='../assets/img/followUs_fb.jpg' />
+			                	</a>
+		                		<a href=".html($page->instagramlink())." target='_blank'>
+		                  			<img src='../assets/img/followUs_insta.jpg' />
+		                		</a>";
+		                  	}
+		                	
+		                	
+
+		                	?>
 		              	</div>
 		        	</div>
      

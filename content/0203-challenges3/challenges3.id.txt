@@ -26,7 +26,19 @@ Popupmsg3: Don't have Instagram?
 
 ----
 
-Remindertext: All weekly winners will automatically be invited to compete for the Grand Prize!
+Instruction1:Pergi lah kemana tantangan membawamu, lalu abadikan foto petualanganmu.
+
+----
+
+Instruction2:Upload foto ke instagram kamu dengan hashtag #WranglerSunChaser  #Indonesia untuk mengikuti kompetisi.
+
+----
+
+Instruction3:Pantau <a href="https://www.facebook.com/wranglerfanpage" target="_blank">Facebook</a> dan <a href="http://instagram.com/wrangler_asiapacific" target="_blank">Instagram</a> Wrangler Jeans Indonesia di hari Senin untuk mengetahui apakah kamu pemenang kompetisi minggu ini! 
+
+----
+
+Remindertext: Semua pemenang mingguan akan otomatis berhak mengikuti kompetisi final untuk mendapatkan hadiah grand prize!
 
 ----
 
@@ -38,7 +50,8 @@ Rewardtitle: Gift Vouchers at IDR 2,000,000
 
 ----
 
-Rewardcontent:An adventurer never returns empty handed. This week’s bounty comes in the form of a voucher, take your pick of this season’s collection to further your journeys under the sun.
+Rewardcontent:Seorang petualang sejati tidak pernah kembali dengan tangan hampa. Hadiah voucher sudah menanti minggu ini dalam bentuk voucher, pilih koleksi terbaru musim ini untuk menemani perjalanan-perjalanan jauh dibawah sinar matahari.
+
 ----
 
 

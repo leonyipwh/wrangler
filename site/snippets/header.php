@@ -1,11 +1,3 @@
-<!-- <ul>
-  <?php foreach(c::get('lang.available') as $lang): ?>
-  <li<?php if($lang == c::get('lang.current')) echo ' class="active"' ?>>
-    <a href="<?php echo $page->url($lang) ?>"><?php echo $lang ?></a>
-  </li>
-  <?php endforeach ?>
-</ul> -->
-
 <?php 
   $lang = c::get('lang.current');
 ?>
@@ -60,6 +52,14 @@
                   {
                     echo "Hong Kong ( Eng )";
                   } 
+                else if($lang=="id")
+                  {
+                    echo "Indonesia";
+                  }
+                else if($lang=="zh")
+                  {
+                    echo "China";
+                  }
                 else if($lang=="au")
                   {
                     echo "Australia";
@@ -78,7 +78,7 @@
                   }
                 else if($lang=="th")
                   {
-                    echo "Thailand ( Eng )";
+                    echo "Thailand";
                   }
                ?>
             </a>
@@ -96,6 +96,14 @@
                     {
                       echo "Australia";
                     }
+                    else if($langSelection == 'zh' && $langSelection!=$lang)
+                    {
+                      echo "China";
+                    }
+                    else if($langSelection == 'id' && $langSelection!=$lang)
+                    {
+                      echo "Indonesia";
+                    }
                     else if($langSelection == 'mm' && $langSelection!=$lang)
                     {
                       echo "Myanmar";
@@ -110,7 +118,7 @@
                     }
                     else if($langSelection == 'th' && $langSelection!=$lang)
                     {
-                      echo "Thailand ( Eng )";
+                      echo "Thailand";
                     }
                   ?>
                 </a>

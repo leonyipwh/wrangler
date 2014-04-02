@@ -1,8 +1,8 @@
-Scroll: Scroll
+Scroll: เลื่อน
 
 ----
 
-Leadingtext: The open road calls you, and the rewards have never been higher. Each week we'll launch a new challenge where  we urge you to go out, conquer new ground and share your adventures with us at #WranglerSunchaser. A new week brings new rewards, but our grand prize takes you as far as you desire. Welcome to the Sun Chaser Challenge. 
+Leadingtext: การเดินทางได้ร้องเรียกคุณ และรางวัลสูงสุดที่ไม่เคยมีมาก่อน ในแต่ละสัปดาห์เราจะนำเสนอความท้าทายที่กระตุ้นให้ทุกคนออกไปผจญภัย พิชิตพื้นที่ใหม่ๆ และแบ่งปันประสบการณ์ของคุณกับเราที่ #WranglerSunchaser จะมีการแจกรางวัลในทุกสัปดาห์ แต่รางวัลใหญ่จะพาคุณไปยังที่ที่คุณปรารถนา ขอต้อนรับสู่การท้าทาย The Sun Chaser 
 
 ----
 
@@ -10,7 +10,7 @@ Howtoparticipate: how to participate
 
 ----
 
-Currentchallenge : Current Challenge 
+Currentchallenge : การท้าทายปัจจุบัน
 
 ----
 
@@ -19,6 +19,14 @@ Grandprize:GRAND PRIZE
 ----
 
 Followus:FOLLOW US
+
+----
+
+Facebooklink:https://www.facebook.com/WranglerThailandFanpage
+
+----
+
+Instagramlink:http://instagram.com/wrangler_thailand
 
 ----
 

@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'agendaFont';
-    src: url('../assets/fonts/Agenda.ttf'),
+    src: url('../fonts/Agenda.ttf'),
     local('../fonts/Agenda.eot');
     font-weight: normal;
     font-style: normal;
@@ -16,24 +16,24 @@
 
 @font-face {
     font-family: 'flamaBook';
-    src: url('../assets/fonts/Flama-Book.ttf'),
-    local('../assets/fonts/Flama-Book.eot');
+    src: url('../fonts/Flama-Book.ttf'),
+    local('../fonts/Flama-Book.eot');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'kenyan';
-    src: url('../assets/fonts/kenyan coffee.ttf'),
-    local('../assets/fonts/kenyan coffee.ttf');
+    src: url('../fonts/kenyan coffee1.ttf'),
+    url('../fonts/kenyan coffee.ttf');
   
     
 }
 
 @font-face {
     font-family: 'agendaLight';
-    src: url('../assets/fonts/agenda-light-webfont.ttf'),
-    local('../assets/fonts/agenda-light-webfont.eot');
+    src: url('../fonts/agenda-light-webfont.ttf'),
+    local('../fonts/agenda-light-webfont.eot');
     font-weight: bold;
 }
 
@@ -215,6 +215,60 @@
 	width: 10px;
 	background-color: white;
 }
+
+
+.instructionMsg
+{
+	position: absolute;
+	z-index: 20;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+.instructionMsgBg
+{
+	position: absolute;
+	background-color: white;
+	width: 100%;
+	height: 100%;
+	opacity: 0.98;
+	z-index: 21;
+}
+
+.instructionContent
+{
+	position: absolute;
+	font-family: 'Raleway', sans-serif;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: left;
+	width: 100%;
+	height: 100%;
+	color: black;
+	margin-top: 13%;
+	font-size: 17px;
+	z-index: 22;
+}
+
+.instructionContent a
+{
+	color:black;
+	text-decoration: underline;
+}
+
+.instructionMsgBtn
+{
+	color: black;
+	cursor: pointer;
+	text-align: center;
+}
+
+.clickImg
+{
+	cursor: pointer;
+}
+
 
 
 /*HTML.ie8-custom {
@@ -815,6 +869,24 @@ p
 		height: 25px;
 		width:60px;
 	}
+
+	#teaserText
+	{
+		font-family:'kenyan', sans-serif;
+		color: white;
+		font-size: 20px;
+		letter-spacing:1px;
+		line-height: 28px;
+	}
+
+	.teaserDate
+	{
+		font-family:'kenyan',sans-serif;
+		font-size: 28px;
+		color: #FFF;
+		width: 100%;
+	}
+
 
 	.challengesThumb div img
 	{

@@ -13,7 +13,17 @@
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
 
-    <?php snippet('popup') ?>
+    <div id="popUp">
+      <div id="popUpBg" onclick="closePopUp()">&nbsp;</div>
+      <div id="popUpContent">
+        <div id="popUpText">
+          <?php echo html($page->popupmsg1()) ?> <a href="http://www.facebook.com">Facebook page</a>!
+          <br><?php echo html($page->popupmsg2()) ?>
+          <br>
+         <a id="closeBtn" onclick="closePopUp()">[ CLOSE ]</a>
+        </div>
+      </div>
+    </div>
 
     <div id="upperContainer">
       <div class="row">
@@ -36,10 +46,10 @@
                     </li>
                     <li data-orbit-slide="2">
                       <!-- <img src="img/bigC1_click.jpg"/> -->
-                      <div class="c1Img">
+                      <div class="c1Img" style="background-image: url('../content/0201-challenges1/bigC1_click_<?php echo $lang ?>.jpg');">
                         <div class="popUpBtn" onclick="showPopUp()">&nbsp;</div>
-                        <a class="facebookBtn" href="https://www.facebook.com/wranglerap" target="_black">&nbsp;</a>
-                        <a class="instagramBtn" href="http://instagram.com/wrangler_asiapacific" target="_black">&nbsp;</a>
+                        <a class="facebookBtn" href="<?php echo html($page->facebooklink()) ?>" target="_black">&nbsp;</a>
+                        <a class="instagramBtn" href="<?php echo html($page->instagramlink()) ?>" target="_black">&nbsp;</a>
                         <div class="backToOrbit1">
                           <a data-orbit-link="1">< <?php echo html($page->backtoseechallenge()) ?></a>
                         <div>
@@ -78,6 +88,20 @@
 
         <div class="hide-for-large-up">
 
+          <div id="instructionMsg1" class="instructionMsg">
+            <div class="instructionMsgBg">&nbsp;</div>
+            <div class="instructionContent">
+              Step 1.<?php echo kirbytext($page->instruction1()) ?>
+
+              Step 2.<?php echo kirbytext($page->instruction2()) ?>
+             
+              Step 3.<?php echo kirbytext($page->instruction3()) ?>
+              <div id="instructionMsg1Btn">
+                <div class="instructionMsgBtn" onclick="closeInstructionPopUp()">[ Close ]</div>
+              </div>
+            </div>
+          </div>
+
           <div id="" class="challenge1Container challengeContainer">
             <div class="challenge1Large">
               <div class="row">
@@ -89,7 +113,7 @@
                   </li>
                   <li data-orbit-slide="2">
                     <!-- <a data-orbit-link="headline-1"></a> -->
-                      <img src="../assets/img/bigC1_click_mobile.jpg">
+                      <img class="clickImg" onclick="instructionPopUp()" src="../content/0201-challenges1/bigC1_click_mobile_<?php echo $lang ?>.jpg">
                       <div class="popUpText_mobile">
                         <span class="hide-for-small"><?php echo html($page->popupmsg1()) ?> <a href="http://www.facebook.com"><?php echo html($page->facebookpage()) ?></a>! <?php echo html($page->popupmsg2()) ?></span> (<a onclick="showPopUp()"><?php echo html($page->popupmsg3()) ?></a>)
                       </div>
@@ -228,6 +252,16 @@
       function closePopUp()
       {
         $("#popUp").hide();
+      }
+
+      function instructionPopUp()
+      {
+        $(".instructionMsg").show();
+      }
+
+      function closeInstructionPopUp()
+      {
+        $(".instructionMsg").hide();
       }
 
       $( document ).ready(function() 

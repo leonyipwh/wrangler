@@ -2,7 +2,7 @@ Scroll: Scroll
 
 ----
 
-Leadingtext: The open road calls you, and the rewards have never been higher. Each week we'll launch a new challenge where  we urge you to go out, conquer new ground and share your adventures with us at #WranglerSunchaser. A new week brings new rewards, but our grand prize takes you as far as you desire. Welcome to the Sun Chaser Challenge. 
+Leadingtext: Tiap minggu tantangan baru memanggil, siap untuk ditaklukkan dan hadiah yang menunggu setimpal dengan usaha yang  dilakukan. Bagi segala petualangan kamu yang tak terlupakan di kompetisi #Wranglersunchaser. Dimana tiap minggunya akan ada hadiah yang menanti dan di akhir kompetisi hadiah utama yang mengantar kamu mengalami pengalaman baru kemanapun yang diinginkan. Selamat datang di Sun Chaser Challenge
 
 ----
 
@@ -10,7 +10,7 @@ Howtoparticipate: how to participate
 
 ----
 
-Currentchallenge : Current Challenge 
+Currentchallenge : Tantangan Minggu ini
 
 ----
 
@@ -19,6 +19,14 @@ Grandprize:GRAND PRIZE
 ----
 
 Followus:FOLLOW US
+
+----
+
+Facebooklink:https://www.facebook.com/wranglerfanpage
+
+----
+
+Instagramlink:https://www.instagram.com
 
 ----
 

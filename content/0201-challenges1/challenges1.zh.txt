@@ -1,0 +1,52 @@
+Currentchallenge: Current Challenge
+
+----
+
+Allchallenge: all challenge
+
+----
+
+Backtoseechallenge: Back to see challenge
+
+----
+
+Facebooklink:https://www.facebook.com/wranglerap
+
+----
+
+Instagramlink:http://instagram.com/wrangler_asiapacific
+
+----
+
+Popupmsg1: You can also submit your photo by uploading it directly to our 
+
+----
+
+Facebookpage: Facebook Page
+
+----
+
+Popupmsg2: Don’t forget to tag it #WranglerSunchaser.
+
+----
+
+Popupmsg3: Don't have Instagram?
+
+----
+
+Remindertext: 周冠军将自动进入最后角逐，赢取最终大奖！
+----
+
+Whatyoucanwin: WHAT YOU CAN WIN THIS WEEK
+
+----
+
+Rewardtitle: 7 Icon Western Shirt
+
+----
+
+Rewardcontent:无论是在宽广的公路上或在炎热的城市街道上追逐阳光，你必须做足准备。Wrangler为现代都市牛仔精心设计出独特的7大标志性产品特征，经历了岁月的考验。1947年作为美国牛仔大赛的是定服装，今天仍是潇洒骑士们选择的最佳装备。
+
+----
+
+

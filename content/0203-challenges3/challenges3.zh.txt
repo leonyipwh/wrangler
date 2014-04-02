@@ -1,0 +1,45 @@
+Currentchallenge: Current Challenge
+
+----
+
+Allchallenge: all challenge
+
+----
+
+Backtoseechallenge: Back to see challenge
+
+----
+
+Popupmsg1: You can also submit your photo by uploading it directly to our 
+
+----
+
+Facebookpage: Facebook Page
+
+----
+
+Popupmsg2: Don’t forget to tag it #WranglerSunchaser.
+
+----
+
+Popupmsg3: Don't have Instagram?
+
+----
+
+Remindertext: 周冠军将自动进入最后角逐，赢取最终大奖！
+
+----
+
+Whatyoucanwin: WHAT YOU CAN WIN THIS WEEK
+
+----
+
+Rewardtitle: Coolmax Jeans
+
+----
+
+Rewardcontent:牛仔不应该成为你工作和冒险的阻碍，炎热潮湿的天气，衣柜中也不能少了它。考虑到舒适性，诞生了COOLMAX®系列，所有的设计都为了“让你凉爽”对抗烈日的酷热。深远的最高峰更吸引人。
+
+----
+
+

@@ -1,0 +1,45 @@
+Currentchallenge: Current Challenge
+
+----
+
+Allchallenge: all challenge
+
+----
+
+Backtoseechallenge: Back to see challenge
+
+----
+
+Popupmsg1: You can also submit your photo by uploading it directly to our 
+
+----
+
+Facebookpage: Facebook Page
+
+----
+
+Popupmsg2: Don’t forget to tag it #WranglerSunchaser.
+
+----
+
+Popupmsg3: Don't have Instagram?
+
+----
+
+Remindertext: 周冠军将自动进入最后角逐，赢取最终大奖！
+
+----
+
+Whatyoucanwin: WHAT YOU CAN WIN THIS WEEK
+
+----
+
+Rewardtitle: N9 Pure Silver Jeans
+
+----
+
+Rewardcontent:在高温潮湿、泥土飞扬和阳光暴晒的冒险之旅中很难保持清爽自在。这是Wrangler春季系列采用COOLMAX®技术和净爽N9纯银技术的原因。从而持久防止细菌的侵入并杀死异味微生物，使牛仔裤清新洁净。不再出汗粘腻！
+
+----
+
+

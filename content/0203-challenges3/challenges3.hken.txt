@@ -38,7 +38,7 @@ Rewardtitle: Win a pair of jean
 
 ----
 
-Rewardcontent:Take home our new seasonal washes (to value of $300), just because you’re roughing the open road doesn’t mean you should be trendy!;
+Rewardcontent:Take home our new seasonal washes (to value of $300), just because you’re roughing the open road doesn’t mean you should be trendy!
 
 ----
 

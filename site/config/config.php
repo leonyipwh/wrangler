@@ -408,7 +408,7 @@ to set the default locale settings for all PHP functions
 
 c::set('lang.support', true);
 c::set('lang.default', 'hken');
-c::set('lang.available', array('au','hken','id','mm','ph','th','za'));
+c::set('lang.available', array('au','hken','zh','id','mm','ph','th','za'));
 c::set('lang.detect', true);
 c::set('lang.locale', false);
 

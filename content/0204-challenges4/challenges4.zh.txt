@@ -1,0 +1,45 @@
+Currentchallenge: Current Challenge
+
+----
+
+Allchallenge: all challenge
+
+----
+
+Backtoseechallenge: Back to see challenge
+
+----
+
+Popupmsg1: You can also submit your photo by uploading it directly to our 
+
+----
+
+Facebookpage: Facebook Page
+
+----
+
+Popupmsg2: Don’t forget to tag it #WranglerSunchaser.
+
+----
+
+Popupmsg3: Don't have Instagram?
+
+----
+
+Remindertext: 周冠军将自动进入最后角逐，赢取最终大奖！
+
+----
+
+Whatyoucanwin: WHAT YOU CAN WIN THIS WEEK
+
+----
+
+Rewardtitle: Denim Spa Jeans
+
+----
+
+Rewardcontent:Wrangler独特设计的牛仔裤为你考虑周全。弹力牛仔面料制成的牛仔Spa系列牛仔裤在为你秀出完美腿部轮廓的同事免耕富裕你纵情的水疗般体验。穿上它顿感舒畅务必，使你仿佛沉浸在夏日水果芬芳的润滑果油中。这才是享受夏天的真谛！
+
+----
+
+

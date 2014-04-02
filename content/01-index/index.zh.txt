@@ -1,0 +1,33 @@
+Scroll: 滚动
+
+----
+
+Leadingtext: 在路上正在召唤你，丰厚好礼在等着你。每周我们将推出一个新的挑战，希望你走出去享受阳光，征服新的领域，并以#Wrangler逐日之旅#为话题分享你的冒险之旅。新的一周会有新的奖励，最后的大奖让你有机会踏足自己的梦想之地。欢迎来到Wrangler 挑战逐日之旅！
+
+----
+
+Howtoparticipate: how to participate
+
+----
+
+Currentchallenge : 当前挑战
+
+----
+
+Grandprize:GRAND PRIZE
+
+----
+
+Followus:FOLLOW US
+
+----
+
+weibolink:
+
+----
+
+Highlightsfrom:HIGHLIGHTS FROM
+
+----
+
+Text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,
