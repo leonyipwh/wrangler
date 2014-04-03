@@ -116,7 +116,14 @@
                     <!-- <a data-orbit-link="headline-1"></a> -->
                       <img class="clickImg" onclick="instructionPopUp()" src="../content/0202-challenges2/bigC2_click_mobile_<?php echo $lang ?>.jpg">
                       <div class="popUpText_mobile">
-                       <span class="hide-for-small"><?php echo html($page->popupmsg1()) ?> <a href="http://www.facebook.com"><?php echo html($page->facebookpage()) ?></a>! <?php echo html($page->popupmsg2()) ?></span> (<a onclick="showPopUp()"><?php echo html($page->popupmsg3()) ?></a>)
+                       <span class="hide-for-small"><?php echo html($page->popupmsg1()) ?> <a href="http://www.facebook.com"><?php echo html($page->facebookpage()) ?></a>! <?php echo html($page->popupmsg2()) ?></span>
+
+                        <?php if($lang!='zh'&&$lang!='th')
+                            {
+                              echo "(<a onclick='showPopUp()'>".html($page->popupmsg3())."</a>)";
+                            }
+                          ?>
+                      
                       </div>
                       <div class="backToOrbit1_mobile">
                       <a data-orbit-link="1">< <?php echo html($page->backtoseechallenge()) ?></a>

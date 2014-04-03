@@ -34,7 +34,20 @@ Popupmsg3: Don't have Instagram?
 
 ----
 
+Instruction1:根据我们的挑战，去到任何你想去的地方，然后用照片捕捉旅程中的精彩瞬间。
+
+----
+
+Instruction2:上传照片并以#挑战逐日之旅#为话题转发参与竞赛。
+
+----
+
+Instruction3:每周一登陆Wrangler官方微博，查询周冠军名单。
+
+----
+
 Remindertext: 周冠军将自动进入最后角逐，赢取最终大奖！
+
 ----
 
 Whatyoucanwin: WHAT YOU CAN WIN THIS WEEK
