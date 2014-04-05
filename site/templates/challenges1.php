@@ -25,12 +25,12 @@
       </div>
     </div>
 
-
     <div id="upperContainer">
       <div class="row">
 
           <div class="show-for-large-up">
-            <div id="" class="challenge1Container challengeContainer">
+
+           <div id="" class="challenge1Container challengeContainer">
               <div class="large-9 columns">
                 <br><br>
                 <div class="whiteLine"></div>
@@ -40,23 +40,19 @@
                 <br>
                 <div class="bigC1_click">   
                   <ul class="orbit-content" data-orbit>
-                    <li data-orbit-slide="1">
+                   <li data-orbit-slide="1">
                       <a data-orbit-link="2">
-                        <img src="../content/0201-challenges1/bigC1_<?php echo $lang; ?>.jpg"/> 
+                         <img src="../content/0201-challenges1/bigC1_<?php echo $lang; ?>.jpg"/>  
                       </a>
                     </li>
                     <li data-orbit-slide="2">
-                      <!-- <img src="img/bigC1_click.jpg"/> -->
+                      <!-- <img src="../assets/img/bigC1_click.jpg"/> -->
                       <div class="c1Img" style="background-image: url('../content/0201-challenges1/bigC1_click_<?php echo $lang ?>.jpg');">
-                        
                         <?php 
-                          
-                          echo kirbytext($page->facebooklink());
-                          echo kirbytext($page->instagramlink());
-                          echo kirbytext($page->popupbtn());
-                        
+                            echo kirbytext($page->facebooklink());
+                            echo kirbytext($page->instagramlink());
+                            echo kirbytext($page->popupbtn());
                         ?>
-                        
                         <div class="backToOrbit1">
                           <a data-orbit-link="1">< <?php echo html($page->backtoseechallenge()) ?></a>
                         <div>
@@ -113,25 +109,23 @@
             <div class="challenge1Large">
               <div class="row">
                 <ul data-orbit>
-                  <li data-orbit-slide="1" style="height: auto;">
+                  <li data-orbit-slide="1">
                       <a data-orbit-link="2">
-                        <img src="../content/0201-challenges1/bigC1_<?php echo $lang; ?>.jpg"/>
+                        <img src="../content/0201-challenges1/bigC1_<?php echo $lang; ?>.jpg"/>  
                       </a>
                   </li>
                   <li data-orbit-slide="2">
                     <!-- <a data-orbit-link="headline-1"></a> -->
                       <img class="clickImg" onclick="instructionPopUp()" src="../content/0201-challenges1/bigC1_click_mobile_<?php echo $lang ?>.jpg">
                       <div class="popUpText_mobile">
-                        <span class="hide-for-small">
-                          <?php echo html($page->popupmsg1()) ?> <a href="http://www.facebook.com"><?php echo html($page->facebookpage()) ?></a>! <?php echo html($page->popupmsg2()) ?>
-                        </span> 
-                          
-                          <?php if($lang!='zh'&&$lang!='th')
+                       <span class="hide-for-small"><?php echo html($page->popupmsg1()) ?> <a href="http://www.facebook.com"><?php echo html($page->facebookpage()) ?></a>! <?php echo html($page->popupmsg2()) ?></span>
+
+                        <?php if($lang!='zh'&&$lang!='th')
                             {
                               echo "(<a onclick='showPopUp()'>".html($page->popupmsg3())."</a>)";
                             }
                           ?>
-                          
+                      
                       </div>
                       <div class="backToOrbit1_mobile">
                       <a data-orbit-link="1">< <?php echo html($page->backtoseechallenge()) ?></a>
@@ -142,11 +136,12 @@
             </div>
             <div class="challengesMobileThumb row">
               <div id="" class="challenge1Thumb small-3 columns"><a href="challenges1.php"><img src="../assets/img/challengeImg/<?php echo $lang; ?>/challenge1_<?php echo $lang; ?>.jpg" /></a></div>
-              <div id="" class="challenge2Thumb small-3 columns" style="opacity:0.7"><a href="challenges2.php"><img src="../assets/img/challengeImg/<?php echo $lang; ?>/challenge2_line_<?php echo $lang; ?>.jpg" /></a></div>
+              <div id="" class="challenge2Thumb small-3 columns" style="opacity:0.7"><a href="challenges2.php"><img src="../assets/img/challengeImg/<?php echo $lang; ?>/challenge2_<?php echo $lang; ?>.jpg" /></a></div>
               <div id="" class="challenge3Thumb small-3 columns" style="opacity:0.7"><a href="challenges3.php"><img src="../assets/img/challengeImg/<?php echo $lang; ?>/challenge3_line_<?php echo $lang; ?>.jpg" /></a></div>
               <div id="" class="challenge4Thumb small-3 columns" style="opacity:0.7"><a href="challenges4.php"><img src="../assets/img/challengeImg/<?php echo $lang; ?>/challenge4_line_<?php echo $lang; ?>.jpg" /></a></div>
             </div>
           </div>
+
 
             <br>
             <div class="whiteLine"></div>
@@ -210,7 +205,7 @@
       </div>
     </div>
 
-  <?php snippet('footer') ?>
+    <?php snippet('footer') ?>
 
     <script src="../assets/js/vendor/jquery.js"></script>
     <script src="../assets/js/foundation.min.js"></script>
@@ -223,7 +218,6 @@
 
 
     <script>
-
       $(document).foundation({
         orbit: 
         {
@@ -231,7 +225,7 @@
           timer_speed: 10000, // Sets the amount of time in milliseconds before transitioning a slide
           pause_on_hover: true, // Pauses on the current slide while hovering
           resume_on_mouseout: false, // If pause on hover is set to true, this setting resumes playback after mousing out of slide
-          next_on_click:false, // Advance to next slide on click
+          next_on_click: false, // Advance to next slide on click
           animation_speed: 500, // Sets the amount of time in milliseconds the transition between slides will last
           stack_on_small: false,
           navigation_arrows: false,
@@ -255,7 +249,7 @@
           bullets: false, // Does the slider have bullets visible?
           circular: true, // Does the slider should go to the first slide after showing the last?
           timer: false, // Does the slider have a timer visible?
-          variable_height: true, // Does the slider have variable height content?
+          variable_height: false, // Does the slider have variable height content?
           swipe: false
           
         }
