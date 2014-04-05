@@ -84,8 +84,7 @@
 		                	<br>
 		                	<?php if($lang=="zh")
 		                  	{
-		                    	echo "
-		                    		<a href='http://weibo.com/wranglerchina'><img src='../content/01-index/weiboImg.jpg'/></a>";
+		                    	echo "<a href='http://weibo.com/wranglerchina' target='_blank'><img src='../content/01-index/weiboImg.jpg'/></a>";
 		                  	} 
 		                  	else
 		                  	{
@@ -158,7 +157,7 @@
 
     <!-- mobile -->
 
-    <div id="indexLowerContainer" class="show-for-small" data-0="top:520px;" data-500="top:520px;" data-1600="top:-630px;">
+    <div id="indexLowerContainer" class="show-for-small" data-0="top:520px;" data-500="top:520px;" data-1600="top:-910px;">
 
 		<div class="row">
 			<div class="large-12 columns">
@@ -220,7 +219,7 @@
       	<br>
 
      	<div class="row">
-	        <div class="large-12 columns">
+	        <div class="small-12 columns">
 				<ul class="highlightsPhoto clearing-thumbs" data-clearing>
 	            <li><a href=""><img src="http://lorempixel.com/87/87/city/1"/></a></li>
 	            <li><a href=""><img src="http://lorempixel.com/87/87/city/2"></a></li>

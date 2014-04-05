@@ -48,9 +48,11 @@
                     <li data-orbit-slide="2">
                       <!-- <img src="../assets/img/bigC1_click.jpg"/> -->
                       <div class="c1Img" style="background-image: url('../content/0202-challenges2/bigC2_click_<?php echo $lang ?>.jpg');">
-                        <div class="popUpBtn" onclick="showPopUp()">&nbsp;</div>
-                        <a class="facebookBtn" href="https://www.facebook.com/wranglerap" target="_black">&nbsp;</a>
-                        <a class="instagramBtn" href="http://instagram.com/wrangler_asiapacific" target="_black">&nbsp;</a>
+                        <?php 
+                            echo kirbytext($page->facebooklink());
+                            echo kirbytext($page->instagramlink());
+                            echo kirbytext($page->popupbtn());
+                        ?>
                         <div class="backToOrbit1">
                           <a data-orbit-link="1">< <?php echo html($page->backtoseechallenge()) ?></a>
                         <div>
@@ -255,6 +257,7 @@
 
       $( document ).ready(function() 
       {
+        $("p:has(a)").contents().unwrap();
 
         $("#prizePhoto").fancybox({
           'overlayShow' : false,

@@ -48,9 +48,15 @@
                     <li data-orbit-slide="2">
                       <!-- <img src="img/bigC1_click.jpg"/> -->
                       <div class="c1Img" style="background-image: url('../content/0201-challenges1/bigC1_click_<?php echo $lang ?>.jpg');">
-                        <div class="popUpBtn" onclick="showPopUp()">&nbsp;</div>
-                        <a class="facebookBtn" href="<?php echo html($page->facebooklink()) ?>" target="_black">&nbsp;</a>
-                        <a class="instagramBtn" href="<?php echo html($page->instagramlink()) ?>" target="_black">&nbsp;</a>
+                        
+                        <?php 
+                          
+                          echo kirbytext($page->facebooklink());
+                          echo kirbytext($page->instagramlink());
+                          echo kirbytext($page->popupbtn());
+                        
+                        ?>
+                        
                         <div class="backToOrbit1">
                           <a data-orbit-link="1">< <?php echo html($page->backtoseechallenge()) ?></a>
                         <div>
@@ -107,7 +113,7 @@
             <div class="challenge1Large">
               <div class="row">
                 <ul data-orbit>
-                  <li data-orbit-slide="1">
+                  <li data-orbit-slide="1" style="height: auto;">
                       <a data-orbit-link="2">
                         <img src="../content/0201-challenges1/bigC1_<?php echo $lang; ?>.jpg"/>
                       </a>
@@ -217,6 +223,7 @@
 
 
     <script>
+
       $(document).foundation({
         orbit: 
         {
@@ -254,6 +261,17 @@
         }
       });
 
+      $( document ).ready(function() 
+      {
+        $("p:has(a)").contents().unwrap();
+
+        $("#prizePhoto").fancybox({
+          'overlayShow' : false,
+          'transitionIn'  : 'elastic',
+          'transitionOut' : 'elastic'
+        });
+      });
+
       function showPopUp()
       {
         $("#popUp").show();
@@ -273,16 +291,6 @@
       {
         $(".instructionMsg").hide();
       }
-
-      $( document ).ready(function() 
-      {
-
-        $("#prizePhoto").fancybox({
-          'overlayShow' : false,
-          'transitionIn'  : 'elastic',
-          'transitionOut' : 'elastic'
-        });
-      });
 
 
     </script>

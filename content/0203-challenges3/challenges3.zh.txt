@@ -10,6 +10,16 @@ Backtoseechallenge: Back to see challenge
 
 ----
 
+Facebooklink:
+----
+
+Instagramlink:
+----
+
+Popupbtn:
+
+----
+
 Popupmsg1: You can also submit your photo by uploading it directly to our 
 
 ----

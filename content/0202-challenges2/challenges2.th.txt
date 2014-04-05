@@ -10,6 +10,17 @@ Backtoseechallenge: Back to see challenge
 
 ----
 
+Facebooklink:<a class='facebookBtn' href='https://www.facebook.com/wranglerap' target='_black' style='bottom:187px;right:150px;'>&nbsp;</a>
+----
+
+Instagramlink:<a class='instagramBtn' href='http://instagram.com/wrangler_asiapacific' target='_black' style='bottom: 170px;right: 190px;'>&nbsp;</a>
+
+----
+
+Popupbtn:<div class='popUpBtn' onclick='showPopUp()' style='bottom: 110px;left: 285px;'>&nbsp;</div>
+
+----
+
 Popupmsg1: You can also submit your photo by uploading it directly to our 
 
 ----

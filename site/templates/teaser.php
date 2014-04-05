@@ -77,7 +77,7 @@
         <!-- <div id="teaser_instaBtn"><a href="http://instagram.com/wrangler_asiapacific" target="_blank">&nbsp;</a></div> -->
         <div id="teaserText">The Wrangler Sun Chaser challenge is coming up.<br>Stay tuned by liking us on <a href="https://www.facebook.com/wranglerap" target="_blank">Facebook</a> or following us on <a href="http://instagram.com/wrangler_asiapacific" target="_blank">Instagram</a>.</div>
       </div>
-      <br><br>
+      <br><br class="hide-for-small">
       <div id="teaserScrollDown" data-0="opacity:1" data-200="opacity:0">
         <!-- img src="../assets/img/teaser_countDown.png"> -->
         The countdown has started...
@@ -85,7 +85,7 @@
       <div id="date1" class="teaserDate" data-0="opacity:0" data-180="opacity:0" data-230="opacity:1">
         <img src="assets/img/teaser_date.png">
       </div>
-
+      
       <div id="teaserScrollDownArrow" data-180="opacity:1" data-230="opacity:0">
         <img src="assets/img/teaser_scrollDownArrow.png">
       </div>

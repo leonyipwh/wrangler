@@ -37,6 +37,11 @@
     font-weight: bold;
 }
 
+body
+{
+	background-color:#e1e1e1;
+}
+
 
 #teaser_fbBtn
 {
@@ -121,8 +126,6 @@
 	position: absolute;
 	/*background-color: black;*/
 	width: 140px;
-	bottom: 110px;
-	left: 275px;
 	cursor: pointer;
 }
 
@@ -131,8 +134,6 @@
 	position: absolute;
 	/*background-color: black;*/
 	width: 67px;
-	bottom: 187px;
-	right: 151px;
 	height: 17px;
 	cursor: pointer;
 }
@@ -143,8 +144,6 @@
 	/*background-color: blue;*/
 	width: 75px;
 	height: 17px;
-	bottom: 170px;
-	right: 190px;
 	cursor: pointer;
 }
 
@@ -612,7 +611,7 @@ footer p, footer li
 
 footer
 {
-	height: 400px;
+	/*height: 400px;*/
 	background-color: #e1e1e1;
 }
 
@@ -640,7 +639,7 @@ footer
 
 #upperContainer
 {
-	background-image: url('../img/challenges_upperbg.png');
+	background-image: url('../img/challenges_upperbg.jpg');
 	background-size:cover;
 	padding-bottom: 40px;
 }
@@ -669,7 +668,7 @@ footer
 
 #lowerContainer
 {
-	background-image: url('../img/challenges_lowerbg.png');
+	background-image: url('../img/challenges_lowerbg.jpg');
 	background-size:cover;
 	padding-bottom: 40px;
 }
@@ -852,6 +851,11 @@ p
 	margin-bottom: 10px;
 }
 
+@media only screen and  (min-width: 1023px){
+
+	.orbit-container { height: 471px; } 
+}
+
 
 @media only screen and  (max-width: 40em){ 
 	#teaser_fbBtn
@@ -870,13 +874,20 @@ p
 		width:60px;
 	}
 
+	#campaignLogo
+	{
+		margin-top: -20px;
+	}
+
 	#teaserText
 	{
 		font-family:'kenyan', sans-serif;
 		color: white;
-		font-size: 20px;
+		font-size: 15px;
 		letter-spacing:1px;
-		line-height: 28px;
+		line-height: 20px;
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 
 	.teaserDate
